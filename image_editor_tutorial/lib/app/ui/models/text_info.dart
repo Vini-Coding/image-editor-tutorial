@@ -2,14 +2,14 @@
 import 'package:flutter/material.dart';
 
 class TextInfo {
-  final String text;
-  final double left;
-  final double top;
-  final double fontSize;
-  final Color color;
-  final FontWeight fontWeight;
-  final FontStyle fontStyle;
-  final TextAlign textAlign;
+  String text;
+  double left;
+  double top;
+  double fontSize;
+  Color color;
+  FontWeight fontWeight;
+  FontStyle fontStyle;
+  TextAlign textAlign;
 
   TextInfo({
     required this.text,
